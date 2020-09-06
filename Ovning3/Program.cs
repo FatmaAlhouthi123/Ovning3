@@ -87,20 +87,38 @@ namespace Ovning3 {
                 Console.WriteLine(animal.ToString());
                 Console.WriteLine(animal.DoSound());
             }
-            Person person = new Person();
-            for (int i = 0; i < animalList.Count; i++)
-            {
-               // if (animalList[i].ToString() == person.ToString())
-                if (true)
-                {
-                    // (Person)animalList[i].Talk();
-                    Console.WriteLine(animalList[i]);
-                }
+
+            Wolfman wolfman = new Wolfman();
+            
+            animalList.Add(wolfman.CreateWolf(11, "half wolf", 70));
+
+
+
+            //10- Skapa gränssnittet Person med en metod deklaration Talk();
+            //11- Skapa Klassen Wolfman som ärver från Wolf och implementerar Person gränssnittet.
+
+
+            for (int i = 0; i < animalList.Count; i++) {
+                
+               // if (animalList[i] is IPerson)
+                    //(IPerson)animalList[i].Talk();
+                /*
+                 cast animal to type IPerson 
+                BUT som thing wrong with casting  (IPerson)animalList[i].Talk();   
+
+                
+                 */
             }
             {
 
-            }
-            {
+             
+                 //   Console.WriteLine(  "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF");
+                    
+                       
+                       //  animalList[i].Talk();
+                 //  Console.WriteLine(animalList[i]);
+                }
+           
 
             }
 
@@ -124,4 +142,4 @@ namespace Ovning3 {
 
         }
     }
-}
+
