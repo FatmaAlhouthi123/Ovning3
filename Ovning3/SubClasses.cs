@@ -36,6 +36,9 @@ namespace Ovning3 {
         public override string DoSound() {
             return "wof wof  ";
         }
+        public string OptionalMethod() {
+            return "optional string";
+        }
 
     }
 

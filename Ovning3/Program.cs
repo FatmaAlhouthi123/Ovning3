@@ -84,8 +84,19 @@ namespace Ovning3 {
 
             foreach (Animal animal in animalList)
             {
-                Console.WriteLine(animal.ToString());
+               
                 Console.WriteLine(animal.DoSound());
+                Console.WriteLine(animal.Stats());
+
+                // 14.Skriv ut ​Stats() ​metoden enbart för alla hundar genom en foreach på  ​Animals.
+               if(animal is Dog)
+                Console.WriteLine(animal.Stats());
+
+                //Kommer du åt den metoden från ​Animals ​listan?17.F: Varför inte?
+                //Hitta ett sätt att skriva ut din nya metod för dog genom en foreach på ​Animals.
+                // answer is by casting animal to dog
+                // (Dog)animal.OptionalMethod();       doesnt work although i made casting animal to dog
+
             }
 
             Wolfman wolfman = new Wolfman();
@@ -94,8 +105,9 @@ namespace Ovning3 {
 
 
 
-            //10- Skapa gränssnittet Person med en metod deklaration Talk();
-            //11- Skapa Klassen Wolfman som ärver från Wolf och implementerar Person gränssnittet.
+            /*     7.Gör en check i For-loopen ifall animal även 
+             *     är av typen Person, om den är det typ-casta tillPerson
+             *     och anropa dess Talk() metod*/
 
 
             for (int i = 0; i < animalList.Count; i++) {
@@ -109,15 +121,12 @@ namespace Ovning3 {
                 
                  */
             }
-            {
+            List<Dog> dogList = new List<Dog>();
 
              
-                 //   Console.WriteLine(  "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF");
+                
                     
-                       
-                       //  animalList[i].Talk();
-                 //  Console.WriteLine(animalList[i]);
-                }
+                   
            
 
             }
