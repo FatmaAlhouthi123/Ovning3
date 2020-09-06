@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ovning3", "Ovning3\Ovning3.csproj", "{F8400304-92A3-4916-9938-AD40021D0AAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8400304-92A3-4916-9938-AD40021D0AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8400304-92A3-4916-9938-AD40021D0AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8400304-92A3-4916-9938-AD40021D0AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8400304-92A3-4916-9938-AD40021D0AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87841B10-4187-4634-894E-341E837A7E1D}
+	EndGlobalSection
+EndGlobal
