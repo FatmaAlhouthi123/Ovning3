@@ -38,4 +38,9 @@ namespace Ovning3 {
      */
 
 
+
+    11.//: Varför är polymorfism viktigt att behärska?
+       // F: Hur kan polymorfism förändra och förbättra kod via en bra struktur?
+       // F: Vad är det för en skillnad på en Abstrakt klass och ett Interface?
+
 }

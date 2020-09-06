@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 
 namespace Ovning3 {
     class Program {
@@ -122,33 +121,24 @@ namespace Ovning3 {
                  */
             }
             List<Dog> dogList = new List<Dog>();
+            dogList.Add(dog.CreateDog(2,"Jo",20, "german shefer"));
+            dogList.Add(dog.CreateDog(1,"Jo",11, "spansk"));
 
-             
-                
-                    
-                   
-           
 
+
+            List<string> userErrors = new List<string>();
+            userErrors.Add(new TextInputError().UEMessage());
+            userErrors.Add(new NumericInputError().UEMessage());
+            userErrors.Add(new errorClass1().UEMessage());
+            userErrors.Add(new errorClass2().UEMessage());
+            userErrors.Add(new errorClass3().UEMessage());
+
+
+            foreach (var errors in userErrors)
+            {
+                Console.WriteLine(errors);
             }
-
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            }
         }
     }
 
