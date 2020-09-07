@@ -180,6 +180,10 @@ namespace Ovning3 {
         }
 
 
+        
+
+
+
         public override string Stats() {
             return this.Name + this.Weight + this.Age + this.IsWiled;
         }  

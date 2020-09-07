@@ -4,6 +4,6 @@ using System.Text;
 
 namespace Ovning3 {
     interface IPerson {
-        public string Talk();
+         public void Talk();
     }
 }

@@ -100,9 +100,10 @@ namespace Ovning3 {
 
             Wolfman wolfman = new Wolfman();
             
-            animalList.Add(wolfman.CreateWolf(11, "half wolf", 70));
-
-
+            animalList.Add(wolfman);
+           
+            
+            Console.WriteLine(wolfman is IPerson pers);
 
             /*     7.Gör en check i For-loopen ifall animal även 
              *     är av typen Person, om den är det typ-casta tillPerson
@@ -110,15 +111,15 @@ namespace Ovning3 {
 
 
             for (int i = 0; i < animalList.Count; i++) {
-                
-               // if (animalList[i] is IPerson)
-                    //(IPerson)animalList[i].Talk();
-                /*
-                 cast animal to type IPerson 
-                BUT som thing wrong with casting  (IPerson)animalList[i].Talk();   
-
-                
-                 */
+                Console.WriteLine(animalList[i].Name);
+                if (animalList[i] is IPerson person)
+                {
+                   
+                    person.Talk();
+                }
+                    /*
+                     cast animal to type IPerson 
+                   */
             }
             List<Dog> dogList = new List<Dog>();
             dogList.Add(dog.CreateDog(2,"Jo",20, "german shefer"));
